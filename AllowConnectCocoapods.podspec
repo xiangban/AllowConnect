@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AllowConnectCocoapods"
-  s.version      = "1.0.1"
+  s.version      = "1.0.3"
   s.summary      = "移动端连接权限申请"
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/xiangban/AllowConnect.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/xiangban/AllowConnect.git", :tag => "1.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
 #本地文件夹的路径
-  s.source_files  = "AllowConnect", "*.{h,m,a}"
+  s.source_files  = "AllowConnect", "AllowConnect/*.{h,a}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
