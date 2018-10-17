@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
 #本地文件夹的路径
-  s.source_files  = "AllowConnect", "AllowConnect/*.{h,a}"
+  s.source_files = "AllowConnect/*.{h,a}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
